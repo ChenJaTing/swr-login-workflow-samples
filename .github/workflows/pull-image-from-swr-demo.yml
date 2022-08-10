@@ -2,7 +2,7 @@ name: Pull Image from SWR Demo
 on:
   push:
     branches:
-       master
+       master1
 env:
   REGION_ID: 'cn-north-4'   # example: cn-north-4
   IMAGE_URL: 'swr.cn-north-4.myhuaweicloud.com/actions/swr-test:72114e1d1898dcaed2935ae34bf74a3ada6dd447'     # 镜像地址
