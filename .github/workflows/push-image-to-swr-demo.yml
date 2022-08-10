@@ -4,9 +4,9 @@ on:
     branches:
        master1
 env:
-  REGION_ID: '<region id>'   # example: cn-north-4
-  SWR_ORGANIZATION:  '<swr_organization>'   # SWR 组织名
-  IMAGE_NAME: '<image_name>'     # 镜像名称
+  REGION_ID: 'cn-north-4'   # example: cn-north-4
+  SWR_ORGANIZATION:  'actions'   # SWR 组织名
+  IMAGE_NAME: 'swr-test'     # 镜像名称
 jobs:
   swr-push:
     runs-on: ubuntu-latest
