@@ -2,7 +2,7 @@ name: Push Image to SWR Demo
 on:
   push:
     branches:
-       master
+       master1
 env:
   REGION_ID: 'cn-north-4'   # example: cn-north-4
   SWR_ORGANIZATION:  'actions'   # SWR 组织名
