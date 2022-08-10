@@ -2,7 +2,7 @@ name: Pull Image from SWR Demo
 on:
   push:
     branches:
-       master
+       master1
 env:
   REGION_ID: '<region id>'   # example: cn-north-4
   IMAGE_URL: '<image url>'     # 镜像地址
